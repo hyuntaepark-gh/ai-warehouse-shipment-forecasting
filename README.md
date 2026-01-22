@@ -77,31 +77,6 @@ Performance is evaluated based on **total operational cost reduction**, not only
 
 ---
 
-## 🏗️ Repository Structure
-
-
-
-ai-warehouse-shipment-forecasting/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_eda.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   └── 03_modeling.ipynb
-├── src/
-│   ├── train_model.py
-│   ├── forecast_shipments.py
-│   └── cost_simulation.py
-├── reports/
-│   └── operational_impact.md
-├── README.md
-└── requirements.txt
-
-
-
----
-
 ## 📈 Expected Outcomes
 - Improved shipment volume forecasting using AI models
 - Reduced shipment delay and stockout risk
@@ -129,3 +104,27 @@ ai-warehouse-shipment-forecasting/
 ## 📜 Disclaimer
 This project uses publicly available or synthetic data for research and demonstration purposes.
 The framework is designed to be adaptable to real-world warehouse and logistics environments.
+---
+
+## 🏗️ Repository Structure
+
+```
+
+ai-warehouse-shipment-forecasting/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── 01_eda.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_modeling.ipynb
+├── src/
+│   ├── train_model.py
+│   ├── forecast_shipments.py
+│   └── cost_simulation.py
+├── reports/
+│   └── operational_impact.md
+├── README.md
+└── requirements.txt
+
+```
